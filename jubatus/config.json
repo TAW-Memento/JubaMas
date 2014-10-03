@@ -1,17 +1,17 @@
 {
   "method": "PA",
-  "converter: {
-  "string_filter_types": {},
-  "string_filter_rules": [],
-  "num_filter_types": {},
-  "num_filter_rules": [],
-  "string_types": {
-    "mecab": {
-      "method": "dynamic",
-      "path": "libmecab_spliter.so",
-      "function": "create",
-      "arg": "-d mecab/dic/ipadic"
-    }
+  "converter": {
+    "string_filter_types": {},
+    "string_filter_rules": [],
+    "num_filter_types": {},
+    "num_filter_rules": [],
+    "string_types": {
+      "mecab": {
+        "method": "dynamic",
+        "path": "libmecab_spliter.so",
+        "function": "create",
+        "arg": "-d mecab/dic/ipadic"
+      }
   },
   "string_rules": [
     {
@@ -21,6 +21,6 @@
       "global_weight": "idf"
     }
   ],
-},
+  },
   "parameter": {}
 }
