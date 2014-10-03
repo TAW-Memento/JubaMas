@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="./styles/style.css"/>
   <title>JubaMas</title>
 </head>
 <body>
+  <div id="wrap">
+    <!-- Fixed navbar -->
+    <div class="navbar-fixed-top">
+      <nav>Fixed Navbar</nav>
+    </div>
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1>Sticky footer with fixed navbar</h1>
+      </div>
+      <p class="lead">JubaMasはTwitterのツイート内容からマズローの欲求段階説であなたの欲求がどのレベルにあるのかを判定する悪ふざけです。</p>
+        <input type="button" id="send_button" value="自分の欲求レベルを解析する" />
+    </div>
+  <div id="push"></div>
+</div>
 
+  <div id="footer">©Team Maslow</div>
 </body>
-<div id="footer">©Team Maslow</div>
+<script type="text/javascript" src="./script/script.js"></script>
 </html>

@@ -1,5 +1,5 @@
 {
-  "name": "TrainingWebSocket",
+  "name": "JubaMas",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,7 +8,10 @@
   "dependencies": {
     "express": ">=3.2.0",
     "morgan":"*",
-    "errorhandler":"*"
+    "errorhandler":"*",
+    "oauth":"*",
+    "express-session":"*",
+    "everyauth":"*"
   },
   "engines": {
     "node": "0.10.*",
